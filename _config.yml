@@ -7,6 +7,10 @@ exclude:
 - Gemfile
 - Gemfile.lock
 
+jekyll_get_json:
+  data: repos
+  json: 'https://api.github.com/users/vinye88/repos'
+
 # Set plugins
 plugins:
 - jekyll-sitemap
