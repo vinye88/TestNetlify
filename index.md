@@ -7,3 +7,8 @@ feature_text: |
 ---
 
 There isn't much going on here yet, but watch this space
+
+{% assign repos = site.github.public_repositories | sort: 'created_at' | reverse %}
+{% for repo in repos %}
+  {{ repo.name }}
+{% endfor %}
