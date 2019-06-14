@@ -22,6 +22,7 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-remote-theme
+- jekyll-get-json
 
 # Site settings
 url: 'https://mydomain.com'
