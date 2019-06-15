@@ -10,6 +10,7 @@ exclude:
 jekyll_get_json:
   data: repos
   json: 'https://api.github.com/users/vinye88/repos'
+  cache: true
 
 # Set plugins
 plugins:
