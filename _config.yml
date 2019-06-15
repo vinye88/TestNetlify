@@ -7,7 +7,7 @@ exclude:
 - Gemfile
 - Gemfile.lock
 
-jekyll_get_json:
+jekyll_get:
   data: repos
   json: 'https://api.github.com/users/vinye88/repos'
   cache: true
